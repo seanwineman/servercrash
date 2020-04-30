@@ -1,0 +1,568 @@
+30.04 15:01:22 [Multicraft] Bensworth ran command Message of the Day
+30.04 15:01:24 [Disconnect] User GiantQwerter has disconnected, reason: Timed out
+30.04 15:01:33 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: server crashed again
+30.04 15:01:33 [Server] Craft Scheduler Thread - 83/INFO Sending 7 analytic events
+30.04 15:01:34 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:01:34 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, Xxfire_blazeXx
+30.04 15:01:35 [Server] User Authenticator #20/INFO UUID of player GiantQwerter is 07a6815c-8cd1-4d00-8f7b-a09b943ad5b9
+30.04 15:01:35 [Connect] User GiantQwerter, IP 69.92.201.48
+30.04 15:01:35 [Multicraft] GiantQwerter ran command Message of the Day
+30.04 15:01:37 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:01:43 [Server] Craft Scheduler Thread - 83/ERROR Failed to send analytic events!
+30.04 15:01:43 [Server] INFO java.net.SocketTimeoutException: timeout
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.Okio$4.newTimeoutException(Okio.java:232) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.AsyncTimeout.exit(AsyncTimeout.java:285) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.AsyncTimeout$2.read(AsyncTimeout.java:241) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.RealBufferedSource.indexOf(RealBufferedSource.java:354) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:226) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.BuyCraftAPI$1.intercept(BuyCraftAPI.java:59) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.BuyCraftAPI$2.intercept(BuyCraftAPI.java:53) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:254) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okhttp3.RealCall.execute(RealCall.java:92) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.retrofit2.OkHttpCall.execute(OkHttpCall.java:186) ~[BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.execution.ServerEventSenderTask.run(ServerEventSenderTask.java:39) [BuycraftX.jar:?]
+30.04 15:01:43 [Server] INFO at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:81) [Spigot_Latest_1.15.2.jar:git-Spigot-2040c4c-a1a705e]
+30.04 15:01:43 [Server] INFO at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [Spigot_Latest_1.15.2.jar:git-Spigot-2040c4c-a1a705e]
+30.04 15:01:43 [Server] INFO at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+30.04 15:01:43 [Server] INFO Caused by: java.net.SocketException: Socket closed
+30.04 15:01:43 [Server] INFO at java.net.SocketInputStream.read(SocketInputStream.java:204) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at sun.security.ssl.InputRecord.readFully(InputRecord.java:465) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at sun.security.ssl.InputRecord.read(InputRecord.java:503) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at sun.security.ssl.AppInputStream.read(AppInputStream.java:105) ~[?:1.8.0_211]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.Okio$2.read(Okio.java:140) ~[?:?]
+30.04 15:01:43 [Server] INFO at net.buycraft.plugin.internal.okio.AsyncTimeout$2.read(AsyncTimeout.java:237) ~[?:?]
+30.04 15:01:43 [Server] INFO ... 32 more
+30.04 15:01:58 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:02:00 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:02:06 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: DIAMOND
+30.04 15:02:11 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: bro i found skeleton with your diamond sword
+30.04 15:02:17 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: yep
+30.04 15:02:17 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /tpask
+30.04 15:02:20 [Server] Server thread/INFO how has the server been running?
+30.04 15:02:21 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /tpask FawnMonster0145
+30.04 15:02:25 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:02:25 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:02:32 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: where is it?
+30.04 15:02:33 [Server] Craft Scheduler Thread - 88/INFO Sending 8 analytic events
+30.04 15:02:45 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: i killed it
+30.04 15:02:48 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: this is where I died
+30.04 15:03:01 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: this is my loot
+30.04 15:03:09 [Multicraft] Auto-saving world...
+30.04 15:03:09 [Server] Server thread/INFO Saving is already turned on
+30.04 15:03:09 [Server] Server thread/INFO Saving the game (this may take a moment!)
+30.04 15:03:09 [Server] Server thread/INFO Saved the game
+30.04 15:03:14 [Server] Server thread/INFO CONSOLE issued server command: /broadcast Say how has the server been running?
+30.04 15:03:16 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:03:16 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:03:20 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: nice
+30.04 15:03:26 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: it crashed
+30.04 15:03:29 [Server] Async Chat Thread - #31/INFO [][Normie] Bensworth: good
+30.04 15:03:44 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: i have your helmet as well
+30.04 15:03:45 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: can i have an iron pick
+30.04 15:03:46 [Server] Server thread/INFO CONSOLE issued server command: /broadcast when did it crash?
+30.04 15:03:54 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: a few min agož
+30.04 15:03:58 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: ago
+30.04 15:03:59 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: like a minute ago
+30.04 15:04:00 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:04:00 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:04:08 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:04:08 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:04:23 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: thats the diamond i found
+30.04 15:04:36 [Server] Server thread/INFO CONSOLE issued server command: /broadcast Hmm. Sorry. Any other crashes during the night tho?
+30.04 15:04:38 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: keep it you need it more than i do
+30.04 15:04:45 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: nope
+30.04 15:04:59 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:04:59 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:04:59 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: yes
+30.04 15:05:15 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: for me there was one a few minutes before the one that just happened
+30.04 15:05:27 [Server] Async Chat Thread - #31/INFO [][Normie] FawnMonster0145: can i borrow your iron pick?
+30.04 15:05:33 [Server] Async Chat Thread - #31/INFO [][Normie] Xxfire_blazeXx: there
+30.04 15:05:50 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:05:50 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:06:00 [Server] Craft Scheduler Thread - 88/INFO Fetching all due players...
+30.04 15:06:00 [Server] Craft Scheduler Thread - 88/INFO Fetched due players (0 found).
+30.04 15:06:20 [Server] Server thread/INFO Xxfire_blazeXx burned to death
+30.04 15:06:28 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /tpask FawnMonster0145
+30.04 15:06:35 [Server] Server thread/INFO FawnMonster0145 issued server command: /tpaccept
+30.04 15:06:41 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:06:41 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:06:42 [Server] Async Chat Thread - #32/INFO [][Normie] FawnMonster0145: hey
+30.04 15:06:48 [Server] Async Chat Thread - #32/INFO [][Normie] FawnMonster0145: can i borrow the pick again
+30.04 15:07:06 [Server] Async Chat Thread - #32/INFO [][Normie] Xxfire_blazeXx: only time i have no water on me
+30.04 15:07:14 [Server] Async Chat Thread - #32/INFO [][Normie] FawnMonster0145: sad
+30.04 15:07:32 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:07:32 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:07:49 [Server] Async Chat Thread - #32/INFO [][Normie] Xxfire_blazeXx: 1 sec
+30.04 15:07:52 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:08:00 [Server] Craft Scheduler Thread - 88/INFO Fetching all due players...
+30.04 15:08:00 [Server] Craft Scheduler Thread - 88/INFO Fetched due players (0 found).
+30.04 15:08:03 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:08:14 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /tpask FawnMonster0145
+30.04 15:08:23 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:08:23 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:08:27 [Server] Server thread/INFO Unknown command. Type "/help" for help.
+30.04 15:08:44 [Server] Server thread/INFO FawnMonster0145 issued server command: /tpa Xxfire_blazeXx
+30.04 15:08:53 [Server] Server thread/INFO CONSOLE issued server command: /broadcast can you guys message me when it crashes so I know how often it’s happening? Sean btw
+30.04 15:09:00 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /tpaccept
+30.04 15:09:03 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: ok
+30.04 15:09:07 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: sure
+30.04 15:09:10 [Server] Async Chat Thread - #33/INFO [][Normie] Bensworth: yee
+30.04 15:09:14 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:09:14 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:09:21 [Server] Server thread/INFO Unknown command. Type "/help" for help.
+30.04 15:09:23 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: thanks
+30.04 15:09:35 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: you died so i made you a new one
+30.04 15:09:52 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: thanks but i got a diamond one so you sure?
+30.04 15:09:59 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:10:00 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:10:00 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:10:03 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: ok thx
+30.04 15:10:05 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:10:05 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:10:43 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: hey so for the mods do I pu all the mods in the same folder?
+30.04 15:10:56 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:10:57 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:10:57 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:10:58 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: ok
+30.04 15:11:00 [Multicraft] Server ran command Admin Say
+30.04 15:11:05 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: imm get forge 1.15.2
+30.04 15:11:14 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: so what is the name of that mod again?
+30.04 15:11:17 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: 1.15.2 is the latest version right?
+30.04 15:11:21 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:11:30 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: ancient warfare 2 its on curse forge
+30.04 15:11:39 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: thnx
+30.04 15:11:48 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:11:48 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:11:58 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: i wrote it down
+30.04 15:12:00 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:12:01 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:12:15 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: wheres optifine 1.15.2?
+30.04 15:12:29 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: its not on the website
+30.04 15:12:35 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: it's not out yet you can get just beta
+30.04 15:12:39 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:12:39 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:12:42 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: oh ok
+30.04 15:12:46 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: I see it now
+30.04 15:12:46 [Server] Async Chat Thread - #33/INFO [][Normie] GiantQwerter: it is at the top of the downloads page
+30.04 15:13:01 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: i had to click previous versions
+30.04 15:13:03 [Server] Async Chat Thread - #33/INFO [][Normie] GiantQwerter: in the pre release
+30.04 15:13:10 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: k
+30.04 15:13:15 [Multicraft] Auto-saving world...
+30.04 15:13:15 [Server] Server thread/INFO Saving is already turned on
+30.04 15:13:15 [Server] Server thread/INFO Saving the game (this may take a moment!)
+30.04 15:13:15 [Server] Server thread/INFO Saved the game
+30.04 15:13:30 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:13:30 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:14:01 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:14:01 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:14:02 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: which forge do you guys reccomend reccomended or latest?
+30.04 15:14:15 [Server] Server thread/INFO Bensworth issued server command: /home
+30.04 15:14:17 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: i use latest
+30.04 15:14:21 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:14:21 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:14:25 [Server] Async Chat Thread - #33/INFO [][Normie] GiantQwerter: same
+30.04 15:14:26 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: ok
+30.04 15:15:04 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: do i download the installer? i forgot
+30.04 15:15:12 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:15:12 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:15:23 [Server] Async Chat Thread - #33/INFO [][Normie] GiantQwerter: yep
+30.04 15:15:25 [Server] Async Chat Thread - #33/INFO [][Normie] Xxfire_blazeXx: instaler
+30.04 15:15:26 [Server] Async Chat Thread - #33/INFO [][Normie] FawnMonster0145: ok
+30.04 15:16:01 [Server] Craft Scheduler Thread - 89/INFO Fetching all due players...
+30.04 15:16:01 [Server] Craft Scheduler Thread - 89/INFO Fetched due players (0 found).
+30.04 15:16:03 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:16:03 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:16:55 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:16:55 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:17:46 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:17:46 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:18:01 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:18:01 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:18:07 [Server] Async Chat Thread - #34/INFO [][Normie] FawnMonster0145: do i have to leave minecraft to let it in the mc launcher?
+30.04 15:18:13 [Server] Async Chat Thread - #34/INFO [][Normie] FawnMonster0145: forge
+30.04 15:18:22 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:18:24 [Server] Async Chat Thread - #34/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:18:27 [Server] Async Chat Thread - #34/INFO [][Normie] FawnMonster0145: ok
+30.04 15:18:36 [Server] Async Chat Thread - #34/INFO [][Normie] FawnMonster0145: see you in a few minutes
+30.04 15:18:37 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:18:37 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:18:37 [Disconnect] User FawnMonster0145 has disconnected, reason: Disconnected
+30.04 15:18:37 [Server] Server thread/INFO FawnMonster0145 left the game
+30.04 15:19:28 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:19:28 [Server] Server thread/INFO Normie: Bensworth, GiantQwerter, Xxfire_blazeXx
+30.04 15:19:33 [Server] Craft Scheduler Thread - 83/INFO Sending 1 analytic events
+30.04 15:20:01 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:20:01 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:20:19 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:20:19 [Server] Server thread/INFO Normie: Bensworth, GiantQwerter, Xxfire_blazeXx
+30.04 15:21:00 [Multicraft] Server ran command Admin Say
+30.04 15:21:10 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:21:10 [Server] Server thread/INFO Normie: Bensworth, GiantQwerter, Xxfire_blazeXx
+30.04 15:21:32 [Server] User Authenticator #21/INFO UUID of player FawnMonster0145 is 8d1a6498-d0a6-428d-b1b7-e5c73f5f7930
+30.04 15:21:32 [Connect] User FawnMonster0145, IP 89.36.67.243
+30.04 15:21:32 [Multicraft] FawnMonster0145 ran command Message of the Day
+30.04 15:21:33 [Server] Craft Scheduler Thread - 83/INFO Sending 1 analytic events
+30.04 15:21:41 [Server] Async Chat Thread - #35/INFO [][Normie] Xxfire_blazeXx: u back!
+30.04 15:21:45 [Server] Async Chat Thread - #35/INFO [][Normie] FawnMonster0145: Guys it didn't work
+30.04 15:21:55 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:22:01 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:22:01 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:22:01 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:22:01 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:22:01 [Server] Async Chat Thread - #35/INFO [][Normie] Xxfire_blazeXx: what do you mean
+30.04 15:22:19 [Server] Async Chat Thread - #35/INFO [][Normie] GiantQwerter: did you run the optifine jar the press extract
+30.04 15:22:35 [Server] Async Chat Thread - #35/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:22:46 [Server] Async Chat Thread - #35/INFO [][Normie] FawnMonster0145: oh no
+30.04 15:22:53 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:22:53 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:23:04 [Server] Async Chat Thread - #35/INFO [][Normie] FawnMonster0145: crap I made a mistake I'll be back
+30.04 15:23:05 [Disconnect] User FawnMonster0145 has disconnected, reason: Disconnected
+30.04 15:23:05 [Server] Server thread/INFO FawnMonster0145 left the game
+30.04 15:23:21 [Multicraft] Auto-saving world...
+30.04 15:23:21 [Server] Server thread/INFO Saving is already turned on
+30.04 15:23:21 [Server] Server thread/INFO Saving the game (this may take a moment!)
+30.04 15:23:21 [Server] Server thread/INFO Saved the game
+30.04 15:23:33 [Server] Craft Scheduler Thread - 83/INFO Sending 1 analytic events
+30.04 15:23:44 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:23:44 [Server] Server thread/INFO Normie: Bensworth, GiantQwerter, Xxfire_blazeXx
+30.04 15:24:01 [Server] Craft Scheduler Thread - 83/INFO Fetching all due players...
+30.04 15:24:01 [Server] Craft Scheduler Thread - 83/INFO Fetched due players (0 found).
+30.04 15:24:21 [Server] User Authenticator #22/INFO UUID of player FawnMonster0145 is 8d1a6498-d0a6-428d-b1b7-e5c73f5f7930
+30.04 15:24:22 [Connect] User FawnMonster0145, IP 89.36.67.243
+30.04 15:24:22 [Multicraft] FawnMonster0145 ran command Message of the Day
+30.04 15:24:28 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: I'm back
+30.04 15:24:33 [Server] Craft Scheduler Thread - 89/INFO Sending 1 analytic events
+30.04 15:24:35 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:24:35 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:24:39 [Server] Async Chat Thread - #36/INFO [][Normie] Xxfire_blazeXx: does it work?
+30.04 15:24:44 [Server] Server thread/INFO Bensworth issued server command: /home
+30.04 15:24:51 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: Optifine is working I just remembered that optifine is a launcher not aa mod
+30.04 15:25:07 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: so its working now
+30.04 15:25:16 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: it has connected textures 2
+30.04 15:25:26 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:25:26 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:25:42 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: how do I turn on the dynamic light thing?
+30.04 15:25:45 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:25:47 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:26:01 [Server] Craft Scheduler Thread - 93/INFO Fetching all due players...
+30.04 15:26:02 [Server] Craft Scheduler Thread - 93/INFO Fetched due players (0 found).
+30.04 15:26:09 [Server] Server thread/INFO Bensworth issued server command: /home
+30.04 15:26:17 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:26:17 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:26:26 [Server] Async Chat Thread - #36/INFO [][Normie] Xxfire_blazeXx: hold on
+30.04 15:26:31 [Server] Async Chat Thread - #36/INFO [][Normie] GiantQwerter: it sould be in the video setting
+30.04 15:26:49 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: nvm I found it
+30.04 15:26:53 [Server] Async Chat Thread - #36/INFO [][Normie] Xxfire_blazeXx: k
+30.04 15:27:08 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:27:08 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:27:09 [Server] Async Chat Thread - #36/INFO [][Normie] Xxfire_blazeXx: does anyone have cows
+30.04 15:27:14 [Server] Server thread/INFO FawnMonster0145 was blown up by Creeper
+30.04 15:27:22 [Server] Async Chat Thread - #36/INFO [][Normie] FawnMonster0145: no
+30.04 15:27:26 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:27:59 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:27:59 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:28:02 [Server] Craft Scheduler Thread - 93/INFO Fetching all due players...
+30.04 15:28:02 [Server] Craft Scheduler Thread - 93/INFO Fetched due players (0 found).
+30.04 15:28:06 [Server] Server thread/INFO FawnMonster0145 issued server command: /spawn
+30.04 15:28:50 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:28:50 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:29:33 [Server] Async Chat Thread - #37/INFO [][Normie] FawnMonster0145: I have Sildurs shaders on
+30.04 15:29:42 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:29:42 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:30:02 [Server] Craft Scheduler Thread - 93/INFO Fetching all due players...
+30.04 15:30:02 [Server] Craft Scheduler Thread - 93/INFO Fetched due players (0 found).
+30.04 15:30:33 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:30:33 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:30:55 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:31:00 [Multicraft] Server ran command Admin Say
+30.04 15:31:24 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:31:24 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:31:50 [Server] Async Chat Thread - #38/INFO [][Normie] Xxfire_blazeXx: i fownd cow!
+30.04 15:31:54 [Server] Async Chat Thread - #38/INFO [][Normie] Xxfire_blazeXx: :D
+30.04 15:32:02 [Server] Craft Scheduler Thread - 94/INFO Fetching all due players...
+30.04 15:32:02 [Server] Craft Scheduler Thread - 94/INFO Fetched due players (0 found).
+30.04 15:32:08 [Server] Async Chat Thread - #38/INFO [][Normie] FawnMonster0145: theres barely any animals in this world
+30.04 15:32:13 [Server] Async Chat Thread - #38/INFO [][Normie] Xxfire_blazeXx: yp
+30.04 15:32:15 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:32:15 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:32:31 [Server] Async Chat Thread - #38/INFO [][Normie] FawnMonster0145: it must be a glitch or something
+30.04 15:32:44 [Server] Async Chat Thread - #38/INFO [][Normie] Xxfire_blazeXx: found another one!
+30.04 15:32:45 [Server] Server thread/INFO FawnMonster0145 issued server command: /spawn
+30.04 15:33:06 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:33:06 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:33:27 [Server] Server thread/WARN FawnMonster0145 moved too quickly! 7.502267405464551,-1.7531999805212024,-6.574714402418323
+30.04 15:33:27 [Multicraft] Auto-saving world...
+30.04 15:33:27 [Server] Server thread/INFO Saving is already turned on
+30.04 15:33:27 [Server] Server thread/INFO Saving the game (this may take a moment!)
+30.04 15:33:28 [Server] Server thread/INFO Saved the game
+30.04 15:33:57 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:33:57 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:34:02 [Server] Craft Scheduler Thread - 94/INFO Fetching all due players...
+30.04 15:34:02 [Server] Craft Scheduler Thread - 94/INFO Fetched due players (0 found).
+30.04 15:34:04 [Server] Server thread/INFO Xxfire_blazeXx has made the advancement [The Parrots and the Bats]
+30.04 15:34:15 [Server] Async Chat Thread - #39/INFO [][Normie] FawnMonster0145: GiantQwerter Do you want to add your chest shop to me and fire blazes
+30.04 15:34:18 [Server] Async Chat Thread - #39/INFO [][Normie] FawnMonster0145: shop
+30.04 15:34:21 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:34:48 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:34:48 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:34:56 [Server] Server thread/INFO FawnMonster0145 issued server command: /spawn
+30.04 15:35:40 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:35:40 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:36:02 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-197, z-214;Fun Fact:;This is actually ;the FIRST indoor;shop in Cynical
+30.04 15:36:02 [Server] Craft Scheduler Thread - 93/INFO Fetching all due players...
+30.04 15:36:03 [Server] Craft Scheduler Thread - 93/INFO Fetched due players (0 found).
+30.04 15:36:07 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-197, z-214;Tim's Server
+30.04 15:36:31 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:36:31 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:36:39 [Server] User Authenticator #23/INFO UUID of player IdealisticSean is 8b9346fb-187e-4a7f-8e77-94b9ef337446
+30.04 15:36:40 [Connect] User IdealisticSean, IP 161.57.228.4
+30.04 15:36:40 [Multicraft] IdealisticSean ran command Message of the Day
+30.04 15:36:44 [Server] Async Chat Thread - #40/INFO [][Normie] Xxfire_blazeXx: hi
+30.04 15:36:46 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: o/
+30.04 15:36:49 [Server] Async Chat Thread - #40/INFO [][Normie] Bensworth: aayy
+30.04 15:37:05 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: hows everything been?
+30.04 15:37:10 [Server] Async Chat Thread - #40/INFO [][Normie] Xxfire_blazeXx: good
+30.04 15:37:13 [Server] Async Chat Thread - #40/INFO [][Normie] Bensworth: gud
+30.04 15:37:22 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:37:22 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:37:22 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:37:30 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: no issues with lag
+30.04 15:37:33 [Server] Craft Scheduler Thread - 93/INFO Sending 1 analytic events
+30.04 15:37:36 [Server] Server thread/INFO IdealisticSean issued server command: /spawn
+30.04 15:37:38 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: 2 crashes but overall good
+30.04 15:37:49 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: how recent were the crashes?
+30.04 15:37:57 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: sometimes laggy but I'm in the EU so
+30.04 15:38:02 [Server] Craft Scheduler Thread - 93/INFO Fetching all due players...
+30.04 15:38:03 [Server] Craft Scheduler Thread - 93/INFO Fetched due players (0 found).
+30.04 15:38:07 [Server] Async Chat Thread - #40/INFO [][Normie] Xxfire_blazeXx: me 2
+30.04 15:38:13 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:38:13 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:38:13 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, Xxfire_blazeXx
+30.04 15:38:17 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: yeah the lag is probably just ping
+30.04 15:38:20 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: 30 minutes ago I'd say
+30.04 15:38:23 [Server] User Authenticator #24/INFO UUID of player TheMrMatthew is cc8ae70e-2250-47aa-8458-666c718d4804
+30.04 15:38:23 [Connect] User TheMrMatthew, IP 109.147.185.240
+30.04 15:38:23 [Multicraft] TheMrMatthew ran command Message of the Day
+30.04 15:38:23 [Server] pool-20-thread-1/INFO Creating empty config: /plugins/Essentials/userdata/cc8ae70e-2250-47aa-8458-666c718d4804.yml
+30.04 15:38:23 [Server] Server thread/INFO TheMrMatthew has made the advancement [Getting an Upgrade]
+30.04 15:38:30 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: ok. I think i caused that one in console
+30.04 15:38:33 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: welcome!!!
+30.04 15:38:33 [Server] Craft Scheduler Thread - 95/INFO Sending 1 analytic events
+30.04 15:38:39 [Server] Server thread/INFO IdealisticSean issued server command: /w
+30.04 15:38:41 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: hi
+30.04 15:38:51 [Server] Async Chat Thread - #40/INFO [][Normie] Xxfire_blazeXx: hjelo!
+30.04 15:39:02 [Server] Server thread/INFO IdealisticSean issued server command: /bal
+30.04 15:39:04 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:39:04 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:39:04 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:39:05 [Server] Server thread/INFO IdealisticSean issued server command: /gamemode survival
+30.04 15:39:07 [Server] Server thread/INFO IdealisticSean bought 3 Sweet Berries for 5.00 from FawnMonster0145 at [Real World 1] -199, 69, -220
+30.04 15:39:15 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-198, z-216;EXIT;Come Again Soon!
+30.04 15:39:19 [Server] Server thread/INFO IdealisticSean bought 2 Melon Slice for 0.50 from Xxfire_blazeXx at [Real World 1] -199, 69, -218
+30.04 15:39:19 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: thank
+30.04 15:39:29 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: hey
+30.04 15:39:32 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-200, z-216;M
+30.04 15:39:35 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: yeah
+30.04 15:39:39 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: you know youre selling 6 logs for $1 right?
+30.04 15:39:47 [Server] User Authenticator #25/INFO UUID of player BLOBFISHINC is 54595a7e-9b4b-4924-9e09-9dcf87c1a296
+30.04 15:39:47 [Connect] User BLOBFISHINC, IP 86.156.36.129
+30.04 15:39:48 [Multicraft] BLOBFISHINC ran command Message of the Day
+30.04 15:39:48 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: that wasn't me
+30.04 15:39:50 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: oh
+30.04 15:39:51 [Server] Server thread/INFO TheMrMatthew was slain by Spider
+30.04 15:39:54 [Server] Async Chat Thread - #40/INFO [][Normie] Xxfire_blazeXx: hi!
+30.04 15:39:54 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: i see
+30.04 15:39:55 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:39:55 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:39:55 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:39:55 [Server] Server thread/INFO IdealisticSean bought 1 Spruce Log for 0.17 from MinEnthalpy at [Real World 1] -199, 69, -219
+30.04 15:39:56 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: someone else did that
+30.04 15:40:02 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: oh nvm i read it backwards
+30.04 15:40:03 [Server] Craft Scheduler Thread - 97/INFO Fetching all due players...
+30.04 15:40:03 [Server] Craft Scheduler Thread - 97/INFO Fetched due players (0 found).
+30.04 15:40:06 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-200, z-216;`
+30.04 15:40:09 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: its fine
+30.04 15:40:10 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /spawn
+30.04 15:40:21 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: there was only one log in the chast xD
+30.04 15:40:27 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: chest
+30.04 15:40:33 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-200, z-216;CHEAP MAGMA ;BLOCKS
+30.04 15:40:33 [Server] Craft Scheduler Thread - 96/INFO Sending 1 analytic events
+30.04 15:40:40 [Server] Async Chat Thread - #40/INFO [][Owner] IdealisticSean: hows it going TheMrMatthew
+30.04 15:40:45 [Server] Async Chat Thread - #40/INFO [][Normie] FawnMonster0145: yeah I can't open it so
+30.04 15:40:46 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:40:46 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:40:46 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:40:51 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:40:54 [Server] Server thread/INFO IdealisticSean issued server command: /accesstrust
+30.04 15:40:59 [Server] Async Chat Thread - #40/INFO [][Normie] TheMrMatthew: not good
+30.04 15:41:00 [Multicraft] Server ran command Admin Say
+30.04 15:41:05 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /spawn
+30.04 15:41:10 [Server] Server thread/INFO IdealisticSean issued server command: /ah
+30.04 15:41:12 [Server] Server thread/INFO FawnMonster0145 was slain by Zombie
+30.04 15:41:37 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:41:37 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:41:37 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:41:41 [Server] Server thread/INFO IdealisticSean issued server command: /give IdealisticSean diamond 3
+30.04 15:41:49 [Server] Server thread/INFO IdealisticSean issued server command: /ah bid 1000
+30.04 15:41:51 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:41:54 [Server] Server thread/INFO IdealisticSean issued server command: /ah bid 100
+30.04 15:42:03 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /homež
+30.04 15:42:03 [Server] Craft Scheduler Thread - 96/INFO Fetching all due players...
+30.04 15:42:03 [Server] Craft Scheduler Thread - 96/INFO Fetched due players (0 found).
+30.04 15:42:05 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /spawn
+30.04 15:42:29 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:42:29 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:42:29 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:42:34 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-197, z-216;FawnMonster0145;1;1 B;Rotten Flesh
+30.04 15:42:34 [Server] Craft Scheduler Thread - 95/INFO FawnMonster0145 created a shop - 1 Rotten Flesh - 1 B - at [Real World 1] -197, 69, -216
+30.04 15:42:47 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /money
+30.04 15:43:03 [Server] Server thread/INFO IdealisticSean issued server command: /lp editor groups
+30.04 15:43:20 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:43:20 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:43:20 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:43:28 [Server] Server thread/INFO Xxfire_blazeXx issued server command: /home
+30.04 15:43:33 [Multicraft] Auto-saving world...
+30.04 15:43:33 [Server] Server thread/INFO Saving is already turned on
+30.04 15:43:33 [Server] Server thread/INFO Saving the game (this may take a moment!)
+30.04 15:43:34 [Server] Server thread/INFO Saved the game
+30.04 15:43:34 [Server] Server thread/INFO FawnMonster0145 placed a sign @ Real World 1: x-199, z-222;FawnMonster0145;5;10 B;Oak Planks
+30.04 15:43:34 [Server] Craft Scheduler Thread - 96/INFO FawnMonster0145 created a shop - 5 Oak Planks - 10 B - at [Real World 1] -199, 70, -222
+30.04 15:43:40 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:43:53 [Server] Server thread/WARN Can't keep up! Is the server overloaded? Running 5255ms or 105 ticks behind
+30.04 15:43:53 [Server] pool-23-thread-1/INFO The server's TPS is bellow 9.4, is it lagging or crashed?
+30.04 15:44:03 [Server] pool-23-thread-1/INFO The server's TPS is bellow 3.6, is it lagging or crashed?
+30.04 15:44:11 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:44:11 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:44:11 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:44:13 [Server] pool-23-thread-1/INFO The server's TPS is bellow 13.2, is it lagging or crashed?
+30.04 15:44:23 [Server] pool-23-thread-1/INFO The server's TPS is bellow 13.1, is it lagging or crashed?
+30.04 15:44:24 [Server] Craft Scheduler Thread - 96/INFO Fetching all due players...
+30.04 15:44:24 [Server] Craft Scheduler Thread - 96/INFO Fetched due players (0 found).
+30.04 15:44:29 [Server] Server thread/INFO IdealisticSean issued server command: /lp applyedits K7qpY3A9Mg
+30.04 15:44:30 [Server] pool-15-thread-1/INFO LOG > (IdealisticSean@vanillasurvival-) [G] (owner)
+30.04 15:44:30 [Server] pool-15-thread-1/INFO LOG > webeditor add crazyauctions.buy.100000 true
+30.04 15:44:31 [Server] pool-15-thread-1/INFO LOG > (IdealisticSean@vanillasurvival-) [G] (default)
+30.04 15:44:31 [Server] pool-15-thread-1/INFO LOG > webeditor add crazyauctions.bid.5 true
+30.04 15:44:33 [Server] pool-23-thread-1/INFO The server's TPS is bellow 4.0, is it lagging or crashed?
+30.04 15:44:35 [Server] Server thread/INFO IdealisticSean issued server command: /ah bid 100
+30.04 15:44:43 [Server] pool-23-thread-1/INFO The server's TPS is bellow 14.8, is it lagging or crashed?
+30.04 15:44:49 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:44:53 [Server] pool-23-thread-1/INFO The server's TPS is bellow 2.5, is it lagging or crashed?
+30.04 15:44:54 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:44:56 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:44:57 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:45:02 [Server] Async Chat Thread - #41/WARN Permissions lag notice with (ModernVaultHandler). Response took 25.504070ms. Summary: Getting prefix for FawnMonster0145
+30.04 15:45:02 [Server] Async Chat Thread - #41/INFO [][Normie] FawnMonster0145: the servers lagging up a bitjust the ping tho
+30.04 15:45:03 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:45:03 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:45:03 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:45:03 [Server] pool-23-thread-1/INFO The server's TPS is bellow 5.1, is it lagging or crashed?
+30.04 15:45:05 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:45:10 [Server] Async Chat Thread - #41/INFO [][Owner] IdealisticSean: tps is at 16 rn
+30.04 15:45:13 [Server] Async Chat Thread - #41/INFO [][Normie] GiantQwerter: same for me
+30.04 15:45:13 [Server] Server thread/WARN Can't keep up! Is the server overloaded? Running 49974ms or 999 ticks behind
+30.04 15:45:13 [Server] pool-23-thread-1/INFO The server's TPS is bellow 3.7, is it lagging or crashed?
+30.04 15:45:18 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:45:22 [Server] Async Chat Thread - #41/INFO [][Normie] FawnMonster0145: the pings pretty high
+30.04 15:45:23 [Server] pool-23-thread-1/INFO The server's TPS is bellow 3.0, is it lagging or crashed?
+30.04 15:45:33 [Server] pool-23-thread-1/INFO The server's TPS is bellow 4.7, is it lagging or crashed?
+30.04 15:45:41 [Server] Server thread/INFO FawnMonster0145 issued server command: /spawn
+30.04 15:45:43 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:45:43 [Server] pool-23-thread-1/INFO The server's TPS is bellow 3.8, is it lagging or crashed?
+30.04 15:45:53 [Server] Server thread/INFO CONSOLE issued server command: /list
+30.04 15:45:53 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:45:53 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:45:53 [Server] pool-23-thread-1/INFO The server's TPS is bellow 5.6, is it lagging or crashed?
+30.04 15:46:07 [Server] Server thread/INFO GiantQwerter issued server command: /tps
+30.04 15:46:13 [Server] pool-23-thread-1/INFO The server's TPS is bellow 5.3, is it lagging or crashed?
+30.04 15:46:16 [Server] Server thread/INFO TheMrMatthew has made the advancement [Stone Age]
+30.04 15:46:22 [Server] Server thread/INFO FawnMonster0145 issued server command: /home
+30.04 15:46:22 [Server] Server thread/WARN Can't keep up! Is the server overloaded? Running 39225ms or 784 ticks behind
+30.04 15:46:23 [Server] pool-23-thread-1/INFO The server's TPS is bellow 7.6, is it lagging or crashed?
+30.04 15:46:33 [Server] pool-23-thread-1/INFO The server's TPS is bellow 3.8, is it lagging or crashed?
+30.04 15:46:42 [Server] Server thread/INFO IdealisticSean issued server command: /tps
+30.04 15:46:43 [Server] Server thread/INFO FawnMonster0145 issued server command: /spawn
+30.04 15:46:44 [Server] Server thread/INFO CONSOLE issued server command: /list 
+30.04 15:46:44 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:46:44 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:46:48 [Server] Async Chat Thread - #42/INFO [][Owner] IdealisticSean: tps is going back up
+30.04 15:46:53 [Server] pool-23-thread-1/INFO The server's TPS is bellow 9.4, is it lagging or crashed?
+30.04 15:46:55 [Server] Server thread/INFO GiantQwerter issued server command: /tps
+30.04 15:47:03 [Server] pool-23-thread-1/INFO The server's TPS is bellow 5.1, is it lagging or crashed?
+30.04 15:47:09 [Server] Async Chat Thread - #42/INFO [][Owner] IdealisticSean: theres nothing i can do about ping, thats your clients connection to the server
+30.04 15:47:13 [Server] pool-23-thread-1/INFO The server's TPS is bellow 13.9, is it lagging or crashed?
+30.04 15:47:19 [Server] Server thread/WARN Can't keep up! Is the server overloaded? Running 26275ms or 525 ticks behind
+30.04 15:47:19 [Disconnect] User IdealisticSean has disconnected, reason: Disconnected
+30.04 15:47:19 [Server] Server thread/INFO IdealisticSean left the game
+30.04 15:47:23 [Server] pool-23-thread-1/INFO The server's TPS is bellow 12.8, is it lagging or crashed?
+30.04 15:47:28 [Server] Async Chat Thread - #42/INFO [][Normie] TheMrMatthew: nice plce
+30.04 15:47:31 [Server] Async Chat Thread - #42/INFO [][Normie] FawnMonster0145: Yeah I'm in the EU soI can't expect much
+30.04 15:47:34 [Server] Craft Scheduler Thread - 99/INFO Sending 1 analytic events
+30.04 15:47:36 [Server] User Authenticator #26/INFO Disconnecting com.mojang.authlib.GameProfile@1f600b82[id=<null>,name=IdealisticSean,properties={},legacy=false] (/161.57.228.4:51950): Authentication servers are down. Please try again later, sorry!
+30.04 15:47:36 [Server] User Authenticator #26/ERROR Couldn't verify username because servers are unavailable
+30.04 15:47:37 [Disconnect] User com.mojang.authlib.GameProfile@1f600b82[id=<null>,name=IdealisticSean,properties={},legacy=false] (/161.57.228.4:51950) has disconnected, reason: Disconnected
+30.04 15:47:37 [Server] Server thread/INFO CONSOLE issued server command: /list 
+30.04 15:47:37 [Server] Server thread/INFO Normie: Bensworth, BLOBFISHINC, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:47:37 [Server] Async Chat Thread - #42/INFO [][Normie] Bensworth: yee
+30.04 15:47:40 [Server] User Authenticator #27/INFO UUID of player IdealisticSean is 8b9346fb-187e-4a7f-8e77-94b9ef337446
+30.04 15:47:43 [Server] pool-23-thread-1/INFO The server's TPS is bellow 6.6, is it lagging or crashed?
+30.04 15:47:44 [Connect] User IdealisticSean, IP 161.57.228.4
+30.04 15:47:44 [Multicraft] IdealisticSean ran command Message of the Day
+30.04 15:47:45 [Server] Server thread/WARN Permissions lag notice with (ModernVaultHandler). Response took 31.237526ms. Summary: Getting suffix for IdealisticSean
+30.04 15:47:52 [Server] Async Chat Thread - #42/INFO [][Normie] Bensworth: im gonna dig the middle area all the wya down to bedrock
+30.04 15:47:53 [Server] pool-23-thread-1/INFO The server's TPS is bellow 3.2, is it lagging or crashed?
+30.04 15:48:03 [Server] Async Chat Thread - #42/INFO [][Normie] TheMrMatthew: nice
+30.04 15:48:03 [Server] pool-23-thread-1/INFO The server's TPS is bellow 4.3, is it lagging or crashed?
+30.04 15:48:04 [Server] Async Chat Thread - #42/INFO [][Normie] FawnMonster0145: you can't
+30.04 15:48:12 [Server] Async Chat Thread - #42/INFO [][Normie] FawnMonster0145: thats where the shops are
+30.04 15:48:12 [Disconnect] User BLOBFISHINC has disconnected, reason: Disconnected
+30.04 15:48:12 [Server] Server thread/INFO BLOBFISHINC left the game
+30.04 15:48:12 [Server] Async Chat Thread - #42/INFO [][Normie] TheMrMatthew: want me to help
+30.04 15:48:13 [Server] pool-23-thread-1/INFO The server's TPS is bellow 8.9, is it lagging or crashed?
+30.04 15:48:23 [Server] Server thread/WARN Xxfire_blazeXx moved too quickly! -8.448830260969018,-1.1661092609382138,-7.43775982646747
+30.04 15:48:23 [Server] pool-23-thread-1/INFO The server's TPS is bellow 5.9, is it lagging or crashed?
+30.04 15:48:25 [Server] Async Chat Thread - #42/INFO [][Normie] Bensworth: i mean the middle area of this thing im building, not spawn
+30.04 15:48:26 [Disconnect] User com.mojang.authlib.GameProfile@790e1189[id=<null>,name=BLOBFISHINC,properties={},legacy=false] (/86.156.36.129:49872) has disconnected, reason: Disconnected
+30.04 15:48:27 [Server] Server thread/INFO CONSOLE issued server command: /list 
+30.04 15:48:27 [Server] Server thread/INFO Admins: IdealisticSean
+30.04 15:48:27 [Server] Server thread/INFO Normie: Bensworth, FawnMonster0145, GiantQwerter, TheMrMatthew, Xxfire_blazeXx
+30.04 15:48:29 [Server] User Authenticator #28/INFO Disconnecting com.mojang.authlib.GameProfile@790e1189[id=<null>,name=BLOBFISHINC,properties={},legacy=false] (/86.156.36.129:49872): Authentication servers are down. Please try again later, sorry!
+30.04 15:48:29 [Server] User Authenticator #28/ERROR Couldn't verify username because servers are unavailable
+30.04 15:48:30 [Server] Async Chat Thread - #42/INFO [][Normie] FawnMonster0145: oh
+30.04 15:48:33 [Server] pool-23-thread-1/INFO The server's TPS is bellow 4.2, is it lagging or crashed?
+30.04 15:48:36 [Server] Server thread/WARN Can't keep up! Is the server overloaded? Running 47471ms or 949 ticks behind
+30.04 15:48:38 [Server] Server thread/INFO GiantQwerter issued server command: /tps
+30.04 15:48:43 [Server] pool-23-thread-1/INFO The server's TPS is bellow 4.8, is it lagging or crashed?
+30.04 15:48:45 [Server] User Authenticator #29/INFO Disconnecting com.mojang.authlib.GameProfile@69f82b4b[id=<null>,name=BLOBFISHINC,properties={},legacy=false] (/86.156.36.129:49876): Authentication servers are down. Please try again later, sorry!
+30.04 15:48:45 [Server] User Authenticator #29/ERROR Couldn't verify username because servers are unavailable
+30.04 15:48:45 [Disconnect] User com.mojang.authlib.GameProfile@69f82b4b[id=<null>,name=BLOBFISHINC,properties={},legacy=false] (/86.156.36.129:49876) has disconnected, reason: Authentication servers are down. Please try again later, sorry!
+30.04 15:48:47 [Server] Server thread/INFO TheMrMatthew issued server command: /do u want me to dig the middle area to bedrock
+30.04 15:48:53 [Server] Async Chat Thread - #42/INFO [][Normie] FawnMonster0145: imma rejoin and see if the pings better
+30.04 15:48:53 [Server] pool-23-thread-1/INFO The server's TPS is bellow 10.9, is it lagging or crashed?
+30.04 15:48:54 [Disconnect] User FawnMonster0145 has disconnected, reason: Disconnected
+30.04 15:48:54 [Server] Server thread/INFO FawnMonster0145 left the game
+30.04 15:49:00 [Disconnect] User Xxfire_blazeXx has disconnected, reason: Disconnected
