@@ -1,0 +1,833 @@
+30.04 02:46:19 [Multicraft] Starting server!
+30.04 02:46:19 [Multicraft] Loaded config for "AUTO UPDATING: Spigot 1.15.2 (Locked to 1.15.2)"
+30.04 02:46:21 [Multicraft] JAR file not found, copying from global JAR directory
+30.04 02:46:21 [Multicraft] Updating eula.txt file
+30.04 02:46:21 [Multicraft] Received start command
+30.04 02:46:21 [Multicraft] Server already running
+30.04 02:46:21 [Server] INFO Loading libraries, please wait...
+30.04 02:46:36 [Server] Server thread/INFO Starting minecraft server version 1.15.2
+30.04 02:46:36 [Server] Server thread/INFO Loading properties
+30.04 02:46:36 [Server] Server thread/INFO This server is running CraftBukkit version git-Spigot-2040c4c-a1a705e (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+30.04 02:46:37 [Server] Server thread/INFO Server Ping Player Sample Count: 12
+30.04 02:46:37 [Server] Server thread/INFO Using 4 threads for Netty based IO
+30.04 02:46:37 [Server] Server thread/INFO Debug logging is disabled
+30.04 02:46:37 [Server] Server thread/INFO Default game type: SURVIVAL
+30.04 02:46:37 [Server] Server thread/INFO Generating keypair
+30.04 02:46:37 [Server] Server thread/INFO Starting Minecraft server on 51.81.52.39:25614
+30.04 02:46:38 [Server] Server thread/INFO Using epoll channel type
+30.04 02:46:42 [Server] Server thread/INFO Loading LuckPerms v5.0.72
+30.04 02:46:42 [Server] Server thread/INFO Loading PlaceholderAPI v2.10.5
+30.04 02:46:42 [Server] Server thread/INFO Loading PAC v2.0.0-pre6
+30.04 02:46:42 [Server] Server thread/INFO Loading BuycraftX v12.0.6
+30.04 02:46:42 [Server] Server thread/INFO Loading Vault v1.7.2-b107
+30.04 02:46:42 [Server] Server thread/INFO Loading GriefPrevention v16.13.0
+30.04 02:46:42 [Server] Server thread/INFO Loading Essentials v2.17.2.0
+30.04 02:46:42 [Server] Server thread/INFO Loading EssentialsChat v2.17.2.0
+30.04 02:46:42 [Server] Server thread/INFO Loading SpigotLib v10.2.5
+30.04 02:46:43 [Server] Server thread/INFO Loading ReflectionAPI...
+30.04 02:46:43 [Server] Server thread/INFO Detected server version: v1_15 (v1_15_R1) - git-Spigot-2040c4c-a1a705e (MC: 1.15.2)
+30.04 02:46:43 [Server] Server thread/INFO Loading configuration and language file...
+30.04 02:46:45 [Server] Server thread/INFO Loading enchants file...
+30.04 02:46:45 [Server] Server thread/INFO Loading FILE backend for player data storage...
+30.04 02:46:45 [Server] Server thread/INFO Starting PacketAPI...
+30.04 02:46:45 [Server] Server thread/INFO Loading AnimationAPI...
+30.04 02:46:46 [Server] Server thread/INFO Starting SpigotLib in fully compatible mode, starting Offline player management, ChatAPI, TitleAPI, NBTApi, ScoreboardAPI...
+30.04 02:46:46 [Server] Server thread/INFO Preparing PlaceholderAPI and Vault hooks...
+30.04 02:46:46 [Server] Server thread/INFO Loading EssentialsSpawn v2.17.2.0
+30.04 02:46:46 [Server] Server thread/INFO Loading ProtocolLib v4.5.0
+30.04 02:46:46 [Server] Server thread/WARN Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
+30.04 02:46:47 [Server] Server thread/INFO Loading AuctionMaster v1.9.4
+30.04 02:46:47 [Server] Server thread/INFO Loading EssentialsProtect v2.17.2.0
+30.04 02:46:47 [Server] Server thread/INFO Enabling LuckPerms v5.0.72
+30.04 02:46:47 [Server] Server thread/INFO __    
+30.04 02:46:47 [Server] Server thread/INFO |    |__)   LuckPerms v5.0.72
+30.04 02:46:47 [Server] Server thread/INFO |___ |      Running on Bukkit - CraftBukkit
+30.04 02:46:47 [Server] Server thread/INFO Loading configuration...
+30.04 02:46:48 [Server] Server thread/WARN java.lang.IllegalArgumentException: Unable to parse from: [highest]
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.metastacking.StandardStackElements.lambda$parseList$0(StandardStackElements.java:87)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+30.04 02:46:48 [Server] Server thread/WARN at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.metastacking.StandardStackElements.parseList(StandardStackElements.java:92)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.config.ConfigKeys.lambda$static$9(ConfigKeys.java:313)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.config.ConfigKeyTypes$CustomKey.get(ConfigKeyTypes.java:119)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.config.AbstractConfiguration.load(AbstractConfiguration.java:83)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.config.AbstractConfiguration.<init>(AbstractConfiguration.java:56)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.enable(AbstractLuckPermsPlugin.java:119)
+30.04 02:46:48 [Server] Server thread/WARN at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onEnable(LPBukkitBootstrap.java:155)
+30.04 02:46:48 [Server] Server thread/WARN at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+30.04 02:46:48 [Server] Server thread/WARN at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+30.04 02:46:48 [Server] Server thread/WARN at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+30.04 02:46:48 [Server] Server thread/WARN at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:464)
+30.04 02:46:48 [Server] Server thread/WARN at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:378)
+30.04 02:46:48 [Server] Server thread/WARN at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:211)
+30.04 02:46:48 [Server] Server thread/WARN at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784)
+30.04 02:46:48 [Server] Server thread/WARN at java.lang.Thread.run(Thread.java:748)
+30.04 02:46:48 [Server] Server thread/INFO Loading storage provider... [H2]
+30.04 02:46:50 [Server] Server thread/INFO Loading internal permission managers...
+30.04 02:46:50 [Server] Server thread/INFO Performing initial data load...
+30.04 02:46:51 [Server] Server thread/INFO Successfully enabled. (took 3675ms)
+30.04 02:46:51 [Server] Server thread/INFO Enabling PAC v2.0.0-pre6
+30.04 02:46:51 [Server] Server thread/WARN Unknown server version: v1_15_R1
+30.04 02:46:51 [Server] Server thread/WARN Version incompatibility detected!
+30.04 02:46:51 [Server] Server thread/INFO Disabling PAC v2.0.0-pre6
+30.04 02:46:51 [Server] Server thread/INFO Enabling Vault v1.7.2-b107
+30.04 02:46:51 [Server] Server thread/WARN Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+30.04 02:46:51 [Server] Server thread/INFO [Economy] Essentials Economy found: Waiting
+30.04 02:46:51 [Server] Server thread/INFO [Permission] SuperPermissions loaded as backup permission system.
+30.04 02:46:51 [Server] Server thread/INFO Enabled Version 1.7.2-b107
+30.04 02:46:51 [Server] Server thread/WARN Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.2-b107 which is not a depend, softdepend or loadbefore of this plugin.
+30.04 02:46:51 [Server] Server thread/INFO Registered Vault permission & chat hook.
+30.04 02:46:51 [Server] Server thread/INFO Enabling ProtocolLib v4.5.0
+30.04 02:46:51 [Server] Server thread/INFO Started structure compiler thread.
+30.04 02:46:51 [Server] Server thread/INFO Preparing level "Real World 1"
+30.04 02:46:51 [Server] Server thread/INFO Reloading ResourceManager: Default, bukkit
+30.04 02:46:52 [Server] Server thread/INFO Loaded 6 recipes
+30.04 02:46:53 [Server] Server thread/INFO -------- World Settings For [Real World 1] --------
+30.04 02:46:53 [Server] Server thread/INFO Mob Spawn Range: 6
+30.04 02:46:53 [Server] Server thread/INFO Experience Merge Radius: 3.0
+30.04 02:46:53 [Server] Server thread/INFO Cactus Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Cane Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Melon Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Mushroom Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Pumpkin Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Sapling Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Beetroot Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Carrot Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Potato Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Wheat Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO NetherWart Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Vine Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Cocoa Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Bamboo Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO SweetBerry Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Kelp Growth Modifier: 100%
+30.04 02:46:53 [Server] Server thread/INFO Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+30.04 02:46:53 [Server] Server thread/INFO Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+30.04 02:46:53 [Server] Server thread/INFO Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+30.04 02:46:53 [Server] Server thread/INFO Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+30.04 02:46:53 [Server] Server thread/INFO Max TNT Explosions: 100
+30.04 02:46:53 [Server] Server thread/INFO Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+30.04 02:46:53 [Server] Server thread/INFO View Distance: 10
+30.04 02:46:53 [Server] Server thread/INFO Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+30.04 02:46:53 [Server] Server thread/INFO Allow Zombie Pigmen to spawn from portal blocks: true
+30.04 02:46:53 [Server] Server thread/INFO Item Merge Radius: 2.5
+30.04 02:46:53 [Server] Server thread/INFO Item Despawn Rate: 6000
+30.04 02:46:53 [Server] Server thread/INFO Zombie Aggressive Towards Villager: true
+30.04 02:46:53 [Server] Server thread/INFO Nerfing mobs spawned from spawners: false
+30.04 02:46:54 [Server] Server thread/INFO -------- World Settings For [Real World 1_nether] --------
+30.04 02:46:54 [Server] Server thread/INFO Mob Spawn Range: 6
+30.04 02:46:54 [Server] Server thread/INFO Experience Merge Radius: 3.0
+30.04 02:46:54 [Server] Server thread/INFO Cactus Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Cane Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Melon Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Mushroom Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Pumpkin Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Sapling Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Beetroot Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Carrot Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Potato Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Wheat Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO NetherWart Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Vine Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Cocoa Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Bamboo Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO SweetBerry Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Kelp Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+30.04 02:46:54 [Server] Server thread/INFO Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+30.04 02:46:54 [Server] Server thread/INFO Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+30.04 02:46:54 [Server] Server thread/INFO Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+30.04 02:46:54 [Server] Server thread/INFO Max TNT Explosions: 100
+30.04 02:46:54 [Server] Server thread/INFO Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+30.04 02:46:54 [Server] Server thread/INFO View Distance: 10
+30.04 02:46:54 [Server] Server thread/INFO Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+30.04 02:46:54 [Server] Server thread/INFO Allow Zombie Pigmen to spawn from portal blocks: true
+30.04 02:46:54 [Server] Server thread/INFO Item Merge Radius: 2.5
+30.04 02:46:54 [Server] Server thread/INFO Item Despawn Rate: 6000
+30.04 02:46:54 [Server] Server thread/INFO Zombie Aggressive Towards Villager: true
+30.04 02:46:54 [Server] Server thread/INFO Nerfing mobs spawned from spawners: false
+30.04 02:46:54 [Server] Server thread/INFO -------- World Settings For [Real World 1_the_end] --------
+30.04 02:46:54 [Server] Server thread/INFO Mob Spawn Range: 6
+30.04 02:46:54 [Server] Server thread/INFO Experience Merge Radius: 3.0
+30.04 02:46:54 [Server] Server thread/INFO Cactus Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Cane Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Melon Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Mushroom Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Pumpkin Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Sapling Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Beetroot Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Carrot Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Potato Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Wheat Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO NetherWart Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Vine Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Cocoa Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Bamboo Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO SweetBerry Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Kelp Growth Modifier: 100%
+30.04 02:46:54 [Server] Server thread/INFO Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+30.04 02:46:54 [Server] Server thread/INFO Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+30.04 02:46:54 [Server] Server thread/INFO Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+30.04 02:46:54 [Server] Server thread/INFO Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+30.04 02:46:54 [Server] Server thread/INFO Max TNT Explosions: 100
+30.04 02:46:54 [Server] Server thread/INFO Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+30.04 02:46:54 [Server] Server thread/INFO View Distance: 10
+30.04 02:46:54 [Server] Server thread/INFO Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+30.04 02:46:54 [Server] Server thread/INFO Allow Zombie Pigmen to spawn from portal blocks: true
+30.04 02:46:54 [Server] Server thread/INFO Item Merge Radius: 2.5
+30.04 02:46:54 [Server] Server thread/INFO Item Despawn Rate: 6000
+30.04 02:46:54 [Server] Server thread/INFO Zombie Aggressive Towards Villager: true
+30.04 02:46:54 [Server] Server thread/INFO Nerfing mobs spawned from spawners: false
+30.04 02:46:54 [Server] Server thread/INFO Preparing start region for dimension 'Real World 1'/minecraft:overworld
+30.04 02:46:56 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:56 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:56 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:56 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:56 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:57 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:57 [Server] Server thread/INFO Time elapsed: 3849 ms
+30.04 02:46:57 [Server] Server thread/INFO Preparing start region for dimension 'Real World 1_nether'/minecraft:the_nether
+30.04 02:46:59 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:59 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:59 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:46:59 [Server] Server thread/INFO Preparing spawn area: 83%
+30.04 02:47:00 [Server] Server-Worker-6/INFO Preparing spawn area: 97%
+30.04 02:47:00 [Server] Server-Worker-7/INFO Preparing spawn area: 97%
+30.04 02:47:00 [Server] Server thread/INFO Preparing spawn area: 98%
+30.04 02:47:01 [Server] Server thread/INFO Time elapsed: 3339 ms
+30.04 02:47:01 [Server] Server thread/INFO Preparing start region for dimension 'Real World 1_the_end'/minecraft:the_end
+30.04 02:47:02 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:47:02 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:47:02 [Server] Server thread/INFO Preparing spawn area: 0%
+30.04 02:47:02 [Server] Server-Worker-7/INFO Preparing spawn area: 83%
+30.04 02:47:03 [Server] Server-Worker-2/INFO Preparing spawn area: 83%
+30.04 02:47:03 [Server] Server-Worker-7/INFO Preparing spawn area: 83%
+30.04 02:47:04 [Server] Server thread/INFO Time elapsed: 2961 ms
+30.04 02:47:04 [Server] Server thread/INFO Enabling PlaceholderAPI v2.10.5
+30.04 02:47:04 [Server] Server thread/INFO Fetching available expansion information...
+30.04 02:47:04 [Server] Server thread/INFO Enabling BuycraftX v12.0.6
+30.04 02:47:04 [Server] Server thread/INFO Validating your server key...
+30.04 02:47:18 [Server] Server thread/INFO Fetching all server packages...
+30.04 02:47:18 [Server] Server thread/WARN Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+30.04 02:47:23 [Server] Server thread/INFO Enabling GriefPrevention v16.13.0
+30.04 02:47:23 [Server] Server thread/INFO Finished loading configuration.
+30.04 02:47:23 [Server] Server thread/INFO 13 total claims loaded.
+30.04 02:47:26 [Server] Server thread/INFO Customizable messages loaded.
+30.04 02:47:26 [Server] Server thread/INFO Finished loading data (File Mode).
+30.04 02:47:26 [Server] Server thread/INFO Boot finished.
+30.04 02:47:26 [Server] Server thread/INFO Enabling Essentials v2.17.2.0
+30.04 02:47:27 [Server] Server thread/INFO Attempting to convert old kits in config.yml to new kits.yml
+30.04 02:47:27 [Server] Server thread/INFO No kits found to migrate.
+30.04 02:47:27 [Server] Server thread/INFO Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+30.04 02:47:27 [Server] Server thread/INFO Using 1.13+ flat spawn egg provider as spawn egg provider.
+30.04 02:47:27 [Server] Server thread/INFO Using 1.9+ BasePotionData provider as potion meta provider.
+30.04 02:47:27 [Server] Server thread/INFO Loaded 21018 items from items.json.
+30.04 02:47:27 [Server] Server thread/INFO Using locale en_US
+30.04 02:47:27 [Server] Server thread/INFO ServerListPingEvent: Spigot iterator API
+30.04 02:47:27 [Server] Server thread/INFO Starting Metrics. Opt-out using the global bStats config.
+30.04 02:47:27 [Server] Server thread/INFO [Vault][Economy] Essentials Economy hooked.
+30.04 02:47:27 [Server] Server thread/INFO Using Vault based permissions (LuckPerms)
+30.04 02:47:27 [Server] Server thread/INFO Enabling EssentialsChat v2.17.2.0
+30.04 02:47:27 [Server] Server thread/INFO Enabling SpigotLib v10.2.5
+30.04 02:47:27 [Server] Server thread/INFO Initializing offline player manager...
+30.04 02:47:28 [Server] Server thread/INFO Your server is not connected to a BungeeCord server, skipping BungeeAPI load...
+30.04 02:47:28 [Server] Server thread/INFO The plugin Vault is present, hooking to it as Economy USER...
+30.04 02:47:28 [Server] Server thread/INFO Enabling EssentialsSpawn v2.17.2.0
+30.04 02:47:28 [Server] Server thread/INFO Enabling AuctionMaster v1.9.4
+30.04 02:47:33 [Server] Server thread/INFO Succesfully connected to the Delivery SQL.
+30.04 02:47:33 [Server] Server thread/INFO Enabling EssentialsProtect v2.17.2.0
+30.04 02:47:33 [Server] Server thread/INFO Continuing to enable Protect.
+30.04 02:47:33 [Server] Server thread/INFO Server permissions file permissions.yml is empty, ignoring it
+30.04 02:47:34 [Server] Server thread/INFO Placeholder expansion registration initializing...
+30.04 02:47:34 [Server] Startup Done (42.234s)! For help, type "help"
+30.04 02:47:34 [Server] Server thread/INFO Starting TPSMeter...
+30.04 02:47:34 [Server] Server thread/INFO Starting PlaceholderAPI hook...
+30.04 02:47:34 [Server] Server thread/INFO Started SpigotLib 10.2.5 properly.
+30.04 02:47:34 [Server] Craft Scheduler Thread - 6/INFO Checking for Updates ... 
+30.04 02:47:34 [Server] Craft Scheduler Thread - 2/INFO Fetching all due players...
+30.04 02:47:35 [Server] Craft Scheduler Thread - 2/INFO Fetched due players (0 found).
+30.04 02:47:35 [Disconnect] User com.mojang.authlib.GameProfile@3ea8769c[id=<null>,name=CynicalTim,properties={},legacy=false] (/24.252.245.196:56189) has disconnected, reason: Disconnected
+30.04 02:47:41 [Server] Craft Scheduler Thread - 1/INFO 173 placeholder expansions are available on the cloud.
+30.04 02:47:52 [Disconnect] User com.mojang.authlib.GameProfile@692b404[id=<null>,name=SuperSlimey5,properties={},legacy=false] (/60.226.201.33:30549) has disconnected, reason: Disconnected
+30.04 02:47:57 [Server] User Authenticator #1/INFO Disconnecting com.mojang.authlib.GameProfile@692b404[id=<null>,name=SuperSlimey5,properties={},legacy=false] (/60.226.201.33:30549): Authentication servers are down. Please try again later, sorry!
+30.04 02:47:57 [Server] User Authenticator #1/ERROR Couldn't verify username because servers are unavailable
+30.04 02:48:04 [Disconnect] User com.mojang.authlib.GameProfile@19b315c0[id=<null>,name=SuperSlimey5,properties={},legacy=false] (/60.226.201.33:30581) has disconnected, reason: Disconnected
+30.04 02:48:05 [Server] User Authenticator #3/INFO UUID of player CynicalKickstart is e4efcf45-892a-4540-b748-880f4a8df680
+30.04 02:48:07 [Server] Craft Scheduler Thread - 6/INFO There was an issue attempting to check for the latest version.
+30.04 02:48:07 [Server] Craft Scheduler Thread - 6/INFO No new version available
+30.04 02:48:13 [Connect] User CynicalKickstart, IP 104.220.103.138
+30.04 02:48:13 [Multicraft] CynicalKickstart ran command Message of the Day
+30.04 02:48:14 [Server] pool-18-thread-1/INFO The server's TPS is bellow 2.2, is it lagging or crashed?
+30.04 02:48:14 [Server] Server thread/WARN Can't keep up! Is the server overloaded? Running 9178ms or 183 ticks behind
+30.04 02:48:14 [Server] Server thread/WARN Permissions lag notice with (ModernVaultHandler). Response took 41.588261ms. Summary: Getting prefix for CynicalKickstart
+30.04 02:48:17 [Server] User Authenticator #4/INFO UUID of player Jaydne is 0d3d8200-d169-45e7-9d61-54b574f18a54
+30.04 02:48:17 [Server] User Authenticator #6/INFO UUID of player SuperSlimey5 is adb2fbf5-9212-4dde-9d04-97ebf27421ca
+30.04 02:48:24 [Server] pool-18-thread-1/INFO The server's TPS is bellow 4.6, is it lagging or crashed?
+30.04 02:48:27 [Connect] User Jaydne, IP 24.181.102.146
+30.04 02:48:27 [Server] User Authenticator #5/INFO UUID of player CynicalTim is e928a197-0a4f-4562-add6-01d384be4e5f
+30.04 02:48:27 [Multicraft] Jaydne ran command Message of the Day
+30.04 02:48:34 [Server] pool-18-thread-1/INFO The server's TPS is bellow 0.1, is it lagging or crashed?
+30.04 02:48:44 [Server] pool-18-thread-1/INFO The server's TPS is bellow 0.0, is it lagging or crashed?
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR The server has stopped responding! This is (probably) not a Spigot bug.
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR If you see a plugin in the Server thread dump below, then please report it to that author
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR *Especially* if it looks like HTTP or MySQL operations are occurring
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR If you see a world save or edit, then it means you did far more than your server can handle at once
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR If this is the case, consider increasing timeout-time in spigot.yml but note that this will replace the crash with LARGE lag spikes
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR If you are unsure or still think this is a Spigot bug, please report to https://www.spigotmc.org/
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR Be sure to include ALL relevant console errors and Minecraft crash reports
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR Spigot version: git-Spigot-2040c4c-a1a705e (MC: 1.15.2)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR Server thread dump (Look for plugins here before reporting to Spigot!):
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR Current Thread: Server thread
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR PID: 32 | Suspended: false | Native: true | State: RUNNABLE
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.net.PlainSocketImpl.socketConnect(Native Method)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.net.Socket.connect(Socket.java:589)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR me.qKing12.AuctionMaster.meniu.MeniuEvents2.onPlayerJoin(MeniuEvents2.java:77)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.lang.reflect.Method.invoke(Method.java:498)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:315)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:406)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:47 [Server] Spigot Watchdog Thread/ERROR Entire Thread Dump:
+
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:313)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Netty Epoll Server IO #2
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 90 | Suspended: false | Native: false | State: BLOCKED
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$1.initChannel(ProtocolInjector.java:153)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:235)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:409)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:396)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$2.initChannel(ProtocolInjector.java:171)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:686)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:313)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Netty Epoll Server IO #1
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 89 | Suspended: false | Native: false | State: BLOCKED
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$1.initChannel(ProtocolInjector.java:153)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:235)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:409)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:396)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$2.initChannel(ProtocolInjector.java:171)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:686)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.access$200(AbstractChannel.java:423)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe$1.run(AbstractChannel.java:482)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:313)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Craft Scheduler Thread - 6
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 88 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Craft Scheduler Thread - 1
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 83 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: pool-17-thread-1
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 81 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: luckperms-scheduler-worker-4
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 79 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: OkHttp ConnectionPool
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 75 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Object.java:460)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.buycraft.plugin.internal.okhttp3.ConnectionPool$1.run(ConnectionPool.java:67)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: poi IO worker
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 74 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2517/168560052.run(Unknown Source)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: chunk IO worker
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 73 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2517/168560052.run(Unknown Source)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: poi IO worker
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 72 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2517/168560052.run(Unknown Source)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: chunk IO worker
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 71 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2517/168560052.run(Unknown Source)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: poi IO worker
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 70 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2517/168560052.run(Unknown Source)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: chunk IO worker
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 69 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2517/168560052.run(Unknown Source)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Timer-0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 68 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.TimerThread.mainLoop(Timer.java:552)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.TimerThread.run(Timer.java:505)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: ForkJoinPool-2-worker-4
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 67 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: ForkJoinPool-2-worker-11
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 66 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: ForkJoinPool-2-worker-18
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 65 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1824)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1693)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: MVStore background writer nio:/plugins/LuckPerms/luckperms-h2.mv.db
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 51 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3116)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: mysql-cj-abandoned-connection-cleanup
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 49 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:80)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Thread-6
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 48 | Suspended: false | Native: true | State: RUNNABLE
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.nio.fs.LinuxWatchService.poll(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: luckperms-scheduler-worker-0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: luckperms-scheduler
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 46 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: pool-6-thread-1
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 45 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Netty Epoll Server IO #0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 44 | Suspended: false | Native: false | State: BLOCKED
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$1.initChannel(ProtocolInjector.java:153)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:235)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:409)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.addLast(DefaultChannelPipeline.java:396)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$2.initChannel(ProtocolInjector.java:171)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:113)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:637)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.access$000(DefaultChannelPipeline.java:46)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1487)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.callHandlerAddedForAllHandlers(DefaultChannelPipeline.java:1161)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.invokeHandlerAddedIfNeeded(DefaultChannelPipeline.java:686)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.register0(AbstractChannel.java:510)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannel$AbstractUnsafe.register(AbstractChannel.java:476)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:80)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.SingleThreadEventLoop.register(SingleThreadEventLoop.java:74)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.MultithreadEventLoopGroup.register(MultithreadEventLoopGroup.java:86)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor.channelRead(ServerBootstrap.java:255)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR gyurix.protocol.manager.ProtocolImpl$ServerChannelHook.channelRead(ProtocolImpl.java:241)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.comphenix.protocol.injector.netty.ProtocolInjector$3.channelRead(ProtocolInjector.java:183)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: ObjectCleanerThread
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 43 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Spigot Metrics Thread
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 42 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.TimerThread.mainLoop(Timer.java:552)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.TimerThread.run(Timer.java:505)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Spigot Watchdog Thread
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 41 | Suspended: false | Native: false | State: RUNNABLE
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.management.ThreadImpl.dumpThreads0(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.spigotmc.WatchdogThread.run(WatchdogThread.java:86)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Java2D Disposer
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 39 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.java2d.Disposer.run(Disposer.java:148)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Server console handler
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 37 | Suspended: false | Native: true | State: RUNNABLE
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Thread is waiting on monitor(s):
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.io.FileInputStream.readBytes(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.io.FileInputStream.read(FileInputStream.java:255)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: TerminalConsoleWriter
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 38 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.misc.Unsafe.park(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.craftbukkit.v1_15_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:31)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: DestroyJavaVM
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 36 | Suspended: false | Native: false | State: RUNNABLE
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Server thread
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 32 | Suspended: false | Native: true | State: RUNNABLE
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Thread is waiting on monitor(s):
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Locked on:net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.net.PlainSocketImpl.socketConnect(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.net.Socket.connect(Socket.java:589)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR me.qKing12.AuctionMaster.meniu.MeniuEvents2.onPlayerJoin(MeniuEvents2.java:77)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.reflect.Method.invoke(Method.java:498)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:315)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:406)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.run(Thread.java:748)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Server Infinisleeper
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 35 | Suspended: false | Native: false | State: TIMED_WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Thread.sleep(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR net.minecraft.server.v1_15_R1.DedicatedServer$1.run(DedicatedServer.java:70)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Snooper Timer
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 31 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Object.java:502)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.TimerThread.mainLoop(Timer.java:526)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.util.TimerThread.run(Timer.java:505)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Signal Dispatcher
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Finalizer
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 3 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Current Thread: Reference Handler
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR PID: 2 | Suspended: false | Native: false | State: WAITING
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR Stack:
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Native Method)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.Object.wait(Object.java:502)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+30.04 02:48:48 [Server] Spigot Watchdog Thread/ERROR ------------------------------
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Startup script './start.sh' does not exist! Stopping server.
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Stopping server
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling EssentialsProtect v2.17.2.0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling AuctionMaster v1.9.4
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling ProtocolLib v4.5.0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling EssentialsSpawn v2.17.2.0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling SpigotLib v10.2.5
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Collecting plugins depending on SpigotLib...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Saving players...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Unloading plugins depending on SpigotLib...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Stopping TPSMeter...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Stopping PacketAPI...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Stopping AnimationAPI...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] Stopping ScoreboardAPI...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Shutdown] The SpigotLib has shutted down properly.
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling EssentialsChat v2.17.2.0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling Essentials v2.17.2.0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO [Vault][Economy] Essentials Economy unhooked.
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling GriefPrevention v16.13.0
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO GriefPrevention disabled.
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling Vault v1.7.2-b107
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling BuycraftX v12.0.6
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling PlaceholderAPI v2.10.5
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Disabling LuckPerms v5.0.72
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Starting shutdown process...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Closing storage...
+30.04 02:48:48 [Server] Spigot Watchdog Thread/INFO Goodbye!
+30.04 02:48:57 [Server] Server thread/WARN java.net.ConnectException: Connection timed out (Connection timed out)
